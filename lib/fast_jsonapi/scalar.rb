@@ -1,11 +1,12 @@
 module FastJsonapi
   class Scalar
-    attr_reader :key, :method, :conditional_proc
+    attr_reader :key, :method, :conditional_proc, :documentation
 
     def initialize(key:, method:, options: {})
       @key = key
       @method = method
       @conditional_proc = options[:if]
+      @documentation = options[:documentation] || {}
     end
 
     def serialize(record, serialization_params, output_hash)

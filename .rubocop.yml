@@ -17,14 +17,14 @@ Style/WordArray:
 
 Style/SymbolProc:
   Exclude:
-    - 'spec/fixtures/*.rb'
+    - "spec/fixtures/*.rb"
 
 Lint/DuplicateMethods:
   Exclude:
-    - 'spec/fixtures/*.rb'
+    - "spec/fixtures/*.rb"
 
-RSpec/FilePath:
-  Enabled: false
+# RSpec/FilePath:
+#   Enabled: false
 
 RSpec/DescribedClass:
   Enabled: false
@@ -40,7 +40,7 @@ RSpec/NestedGroups:
 
 Performance/TimesMap:
   Exclude:
-    - 'spec/**/**.rb'
+    - "spec/**/**.rb"
 
 Gemspec/RequiredRubyVersion:
   Enabled: false
@@ -51,52 +51,52 @@ Style/Documentation:
 
 Style/GuardClause:
   Exclude:
-    - 'lib/**/**.rb'
+    - "lib/**/**.rb"
 
 Style/ConditionalAssignment:
   Exclude:
-    - 'lib/**/**.rb'
+    - "lib/**/**.rb"
 
 Style/IfUnlessModifier:
   Exclude:
-    - 'lib/**/**.rb'
+    - "lib/**/**.rb"
 
 Lint/AssignmentInCondition:
   Exclude:
-    - 'lib/**/**.rb'
+    - "lib/**/**.rb"
 
 Metrics:
   Exclude:
-    - 'lib/**/**.rb'
+    - "lib/**/**.rb"
 
 Metrics/BlockLength:
   Enabled: false
 
 Layout/LineLength:
   Exclude:
-    - 'lib/**/**.rb'
+    - "lib/**/**.rb"
 
 Naming/PredicateName:
   Exclude:
-    - 'lib/**/**.rb'
+    - "lib/**/**.rb"
 
 Naming/AccessorMethodName:
   Exclude:
-    - 'lib/**/**.rb'
+    - "lib/**/**.rb"
 
 Style/CaseLikeIf:
   Exclude:
-    - 'lib/fast_jsonapi/object_serializer.rb'
+    - "lib/fast_jsonapi/object_serializer.rb"
 
 Style/OptionalBooleanParameter:
   Exclude:
-    - 'lib/fast_jsonapi/serialization_core.rb'
-    - 'lib/fast_jsonapi/relationship.rb'
+    - "lib/fast_jsonapi/serialization_core.rb"
+    - "lib/fast_jsonapi/relationship.rb"
 
 Lint/DuplicateBranch:
   Exclude:
-    - 'lib/fast_jsonapi/relationship.rb'
+    - "lib/fast_jsonapi/relationship.rb"
 
 Style/DocumentDynamicEvalDefinition:
   Exclude:
-    - 'lib/extensions/has_one.rb'
+    - "lib/extensions/has_one.rb"
